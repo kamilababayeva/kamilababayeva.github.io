@@ -646,6 +646,13 @@ input[type="radio"] + label:before {
 		top: 0;
 		width: 100%;
 	}
+	.image-cropper {
+	  width: 100px;
+	  height: 100px;
+	  position: relative;
+	  overflow: hidden;
+	  border-radius: 50%;
+	}
 
 	.image img {
 		border-radius: 4px;
